@@ -1,0 +1,188 @@
+#main{
+background: url("https://images.unsplash.com/photo-1485670046541-0a355549f9a9");
+background-repeat: no-repeat;;
+background-size: cover;
+height: 1000px;
+overflow: scroll;
+background-position: center;
+width:100%;
+}
+html{
+width:100%;
+height:100%;
+}
+
+li a{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+	font-weight: bold;
+	    color: #0c0c0c;
+    text-align: right;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	float:right;
+}
+hr { 
+	border-top: 3px double #080808;
+    margin-top: 0.5px;
+    margin-bottom: 0px
+}
+
+
+@media only screen and (max-width: 600px) {
+ .navigation{
+	float: right;
+    padding-right: 10px;
+    padding-top: 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+li a{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+	font-weight: bold;
+	    color: #0c0c0c;
+    text-align: right;
+}
+ #main{
+        background: url("https://images.unsplash.com/photo-1485670046541-0a355549f9a9");
+background-repeat: no-repeat;;
+background-size: cover;
+overflow: scroll;
+max-height:600px;
+background-position: center;
+width:100%;
+  }
+
+}
+
+h1{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+        color: #0c0c0c;
+}
+ footer{
+    color: black;
+    font-weight: bold;
+    background-color: #e7e7e7;
+    font-size:15px;
+ }
+ #video_One{
+ 	 width:400;
+ 	  height:315px;
+ 	  float:right;
+ 	  border: 10px #332f2f solid;
+ 	  margin-right: 20px;
+ 	  margin-top:75px;
+
+ }
+
+ @media only screen and (max-width: 600px) {
+ 	#video_One{
+ 	 width: 375px;
+    height: 315px;
+    float: right;
+    border: 10px #332f2f solid;
+    margin-right: 10px;
+    margin-top: 75px;
+ }
+ #imageOne{
+ 	width: 370px;
+    height: 350px;
+ }
+
+ #map{
+    width: 280px;
+    height: 200px;
+ }
+
+ }
+
+ #info p{
+ 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: white;
+    margin-top: 100px;
+    font-weight: bold;
+     text-align: justify;
+ }
+
+#info2{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+ }
+
+ #info2 li{
+ 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   text-align: justify;
+   color: white;
+   font-weight: bold;
+    padding-left: 30px;
+}
+
+#haha{
+	float: right;
+    padding-top: 80px;
+ }
+
+.mySlides {
+    display:none;
+    width: 400px;
+    height: 400px;
+    padding-right: 100px;
+    float: left;
+    padding-top: 80px;
+}
+
+
+#myBtn {
+  background-color: #004A7F;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+  margin-top: 50px;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+.active{
+    font-weight: bold;
+    font-style:italic;
+    text-decoration: underline;
+}
+
